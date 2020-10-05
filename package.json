@@ -1,0 +1,27 @@
+{
+  "name": "webpack-study",
+  "version": "1.0.0",
+  "description": "webpack学习笔记",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jasonting5/webpack-study.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jasonting5/webpack-study/issues"
+  },
+  "homepage": "https://github.com/jasonting5/webpack-study#readme",
+  "dependencies": {
+    "css-loader": "^4.3.0",
+    "less": "^3.12.2",
+    "less-loader": "^7.0.1",
+    "style-loader": "^1.3.0",
+    "webpack": "^4.44.2",
+    "webpack-cli": "^3.3.12"
+  }
+}
