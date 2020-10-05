@@ -8,7 +8,7 @@ module.exports = {
   module: {
     rules: [
       {
-        test: /.css$/,
+        test: /\.css$/,
         use: [
           // use数组中loader执行顺序是从右到左，从下到上依次执行
           'style-loader', // 创建style标签，将js中的样式资源插入行，添加到head中生效
@@ -16,7 +16,7 @@ module.exports = {
         ],
       },
       {
-        test: /.less$/,
+        test: /\.less$/,
         use: [
           // use数组中loader执行顺序是从右到左，从下到上依次执行
           'style-loader', // 创建style标签，将js中的样式资源插入行，添加到head中生效
